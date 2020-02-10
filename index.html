@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>CloudBudget</title>
+</head>
+<body>
+    <section class="opening" id="opening">
+        <div class="color-overlay">
+            <div class="header width-space">
+                <div class="logo-container">
+                    <img src="img/logo.png" alt="logo-vector">
+                    CloudBudget
+                </div>
+                <ul class="nav-bar">
+                    <li><a href="#overview">OVERVIEW</a></li>
+                    <li><a href="#feature">FEATURES</a></li>
+                    <li><a href="#technology">TECHNOLOGY</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    <li><a onclick="document.getElementById('modal-sign-up').style.display = 'block';">SIGN UP</a></li>
+                </ul>
+                <div class="setting">
+                    <div class="language-button dropdown">
+                        <img class="language-logo" src="img/Frame 1.png" alt="">
+                        <span id="lang">ENG</span> 
+                        <img src="img/Frame 2.png" alt="">
+                        <div class="dropdown-content">
+                            <a onclick="document.getElementById('lang').innerText = 'ENG'; document.getElementsByClassName('language-logo')[0].src = 'img/Frame 1.png';">English</a>
+                            <a onclick="document.getElementById('lang').innerText = 'VIE'; document.getElementsByClassName('language-logo')[0].src = 'img/Frame 3.png';">Vietnamese</a>
+                          </div>
+                    </div>
+                    <button class="btn login-button" onclick="document.getElementById('modal-log-in').style.display = 'block';">LOGIN</button>
+                </div>
+            </div>
+            <div class="text-container">
+                <h1>CloudBudget</h3>
+                <p>Cloud budget management for everyone. Only <br>€69.95 a Month After a 7 Day Trial of <br>
+                    Up to €4.99</p>
+                <button class="btn sign-up-button" onclick="document.getElementById('modal-sign-up').style.display = 'block';">SIGN UP</button>
+            </div>
+        </div>
+        
+    </section>
+    <section class="overview-section width-space" id="overview">
+        <div class="overview-text">
+            <h1 class="tittle">Easy to Use Cloud Budget Management Software</h1>
+            <p class="subtittle">Our software is made so you can access and manage your budget and expenses online at any time from any device. It provides detailed income and expense reports with graphs so you can easilly see your spending patterns and budget at a glance. Read below to find out more.</p>
+            <a class="more-info" href="#">Learn More</a>
+        </div>
+        <div class="overview-container ">
+            <span class="overview-btn"><img src="img/PlaySolid(F5B0).png" alt="icon play"></span>
+            <img src="img/Video_bg.png" alt="overview-bg">
+        </div>
+    </section>
+    <section class="feature-section" id="feature">
+        <div class="feature-container width-space">
+            <h1>Features</h1>
+        <div class="feature-placeholder">
+            <div class="placeholder">
+                <img class="placeholder-img" src="img/placeholder1.png" alt="img1">
+                <div class="placeholder-content">
+                    <h3>Supports All Currencies and Cards</h3>
+                    <p>We support all popular currencies and is fully customizable to add</p>
+                    <a class="more-info" href="">Learn More</a>
+                </div>
+            </div>
+            <div class="placeholder">
+                <img class="placeholder-img" src="img/placeholder2.png" alt="img2">
+                <div class="placeholder-content">
+                    <h3>Manage your expenses on the go</h3>
+                    <p>You can access your account from anywhere in the world on any device</p>
+                    <a class="more-info" href="">Learn More</a>
+                </div>
+            </div>
+            <div class="placeholder">
+                <img class="placeholder-img" src="img/placeholder3.png" alt="img3">
+                <div class="placeholder-content">
+                    <h3>Cloud Budget Management Software</h3>
+                    <p>Our software is made so you can access and manage your budget</p>
+                    <a class="more-info" href="">Learn More</a>
+                </div>
+            </div>
+        </div>
+        </div>
+        
+    </section>
+    <section class="technology-section" id="technology">
+        <div class="technology-container width-space">
+            <h1>Technology</h1>
+            <div class="technology-placeholder">
+                <div class="technology-item">
+                    <div class="technology-item-logo">
+                        <h2 class="technology-item-no">01</h2>
+                        <div class="technology-logo">
+                            <img src="img/logo-cloud-download-outline.png" alt="cloud-logo">
+                        </div>
+                    </div>
+                    <div class="technology-content">
+                        <h2 class="technology-tittle">Cloud Storage</h2>
+                        <p class="technology-subtittle">Access your account from anywhere in the world on any device</p>
+                    </div>
+                </div>
+                <div class="technology-item">
+                    <div class="technology-item-logo">
+                        <h2 class="technology-item-no">02</h2>
+                        <div class="technology-logo">
+                            <img src="img/logo-security-scan-outline.png" alt="secure-logo">
+                        </div>
+                    </div>
+                    <div class="technology-content">
+                        <h2 class="technology-tittle">Secure</h2>
+                        <p class="technology-subtittle">All your information is stored on secure cloud servers</p>
+                    </div>
+                </div>
+                <div class="technology-item">
+                    <div class="technology-item-logo">
+                        <h2 class="technology-item-no">03</h2>
+                        <div class="technology-logo">
+                            <img src="img/logo-file-pdf.png" alt="PDF-logo">
+                        </div>
+                    </div>
+                    <div class="technology-content">
+                        <h2 class="technology-tittle">PDF Download</h2>
+                        <p class="technology-subtittle">Download any of your reports in PDF format</p>
+                    </div>
+                </div>
+                <div class="technology-item">
+                    <div class="technology-item-logo">
+                        <h2 class="technology-item-no">04</h2>
+                        <div class="technology-logo">
+                            <img  src="img/logo-file-csv.png" alt="CSV-logo">
+                        </div>
+                    </div>
+                        <h2 class="technology-tittle">CSV Download</h2>
+                        <p class="technology-subtittle">All your information is stored on secure cloud servers</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="download-section">
+        <div class="download-container width-space">
+            <div class="download-content">
+                <h3 class="tittle">Stay focused on saving money</h3>
+                <p class="subttile">It is important to stay focused on saving money in any way you can. We help you monitor your spending habits so you can easily spot and cut any unnecessary expenses. Simply join today to get started!</p>
+                <div class="download-logos">
+                    <a class="download-link" href="#">
+                        <img src="img/ion-logo-google-playstore.png" alt="play-storestore">
+                    </a>
+                    <a class="download-link" href="#">
+                        <img src="img/ion-logo-apple-appstore.png" alt="app-store">
+                    </a>
+                    <a class="download-link" href="#">
+                        <img src="img/icons_windows.png" alt="window-logo">
+                    </a>
+                </div>
+            </div>
+            <div class="donwload-slide">
+                <img class="slide-holder2" src="img/slide2.png" alt="bg slide">
+                <img class="slide-holder3" src="img/slide3.png" alt="bg slide">
+                <img class="slide-holder1" src="img/slide1.png" alt="main slide">
+            </div>
+
+        </div>
+    </section>
+    <section class="contact-section" id="contact">
+        <div class="contact-container width-space">
+            <div class="contact-text">
+                <h1 class="tittle">Contact</h1>
+                <p class="subtittle">Questions or concerns? Just fill out the form below and our support team will get back to you within 24 hours</p>
+            </div>
+            <form class="contact-info" action="#">
+                <div class="contact-row">
+                    <input class="form-input" type="text" placeholder="First Name" required>
+                    <input class="form-input" type="text" placeholder="Last Name" required>
+                </div>
+                <div class="contact-row">
+                    <input class="form-input" type="text" placeholder="Phone Number" required>
+                </div>
+                <div class="contact-row">
+                    <select class="form-input" name="user-contact" id="user-contact" required>
+                        <option value="none" selected disabled hidden>Seclet service</option>
+                        <option value="Option 1">Option 1</option>
+                        <option value="Option 2">Option 2</option>
+                        <option value="Option 3">Option 3</option>
+                    </select>
+                </div>
+                <button class="btn contact-button" type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+    <section class="footer-section">
+        <div class="footer-container width-space">
+            <div class="footer-col">
+                <h1>Address</h1>
+                <div class="footer-text">
+                    <p>Pipang Ltd, Griva Digeni,
+                        81-83 Jacovides Tower, 1st Floor
+                        1090 Picosia USA</p>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h1>Services</h1>
+                <div class="footer-text">
+                    <ul>
+                        <li><a href="#overview">Overview</a></li>
+                        <li><a href="#feature">Feature</a></li>
+                        <li><a href="#technology">Technology</a></li>
+                        <li><a href="#">Term & Conditions</a></li>
+                        <li><a href="#">Privacy</a></li>
+                    </ul>
+
+                </div>
+            </div>
+            <div class="footer-col">
+                <h1>Get in Touch</h1>
+                <div class="footer-text">
+                    <p>info@cloudbudget.com</p>
+                    <p>+1 844-721-7120</p>
+                    <div class="social-panel">
+                        <a href="#">
+                            <img src="img/feather-facebook.png" alt="facebook-icon">
+                        </a>
+                        <a href="#">
+                            <img src="img/feather-linkedin.png" alt="linkedin-icon">
+                        </a>
+                        <a href="#">
+                            <img src="img/feather-twitter.png" alt="twitter-icon">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h1>We Support</h1>
+                <div class="footer-text">
+                    <img src="img/secure-p-1 1.png" alt="sercure-payment-icon">
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="to-home-page">
+        <a href="#opening">
+            <img src="img/home-button.png" alt="home-page-button">
+        </a>
+    </div>
+    <div class="modal" id="modal-sign-up">
+        <div class="modal-container">
+            <div class="modall-tittle">
+                <h1 class="tittle">SIGN IN</h1>
+                <span>
+                    <button class="close-button" onclick="document.getElementById('modal-sign-up').style.display = 'none';">X</button>
+                </span>
+            </div>
+            <form action="">
+                <div class="modal-input-row">
+                    <label for="fullname">Full Name</label> 
+                    <input type="text" name="fullname" id="fullname" required>
+                </div>
+                <div class="modal-input-row">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+                <div class="modal-input-row">
+                    <label for="username">UserName</label> 
+                    <input type="text" name="username" id="username" required>
+                </div>
+                <div class="modal-input-row">
+                    <label for="password">Password</label> 
+                    <input type="password" name="password" id="password" required>
+                </div>
+                <div class="modal-input-row">
+                    <label for="re-password">Re-Password</label> 
+                    <input type="password" name="re-password" id="re-password" required>
+                </div>
+                <div class="modal-input-row">
+                    <button class="modal-button btn-ok" type="submit">SIGN UP</button>
+                    <button class="modal-button btn-cancel" onclick="document.getElementById('modal-sign-up').style.display = 'none';">CANCEL</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="modal" id="modal-log-in">
+        <div class="modal-container">
+            <div class="modall-tittle">
+                <h1 class="tittle">SIGN IN</h1>
+                <span>
+                    <button class="close-button" onclick="document.getElementById('modal-log-in').style.display = 'none';">X</button>
+                </span>
+            </div>
+            <form action="">
+                <div class="modal-input-row">
+                    <label for="username1">UserName</label> 
+                    <input type="text" name="username1" id="username1" required>
+                </div>
+                <div class="modal-input-row">
+                    <label for="password1">Password</label> 
+                    <input type="password" name="password1" id="password1" required>
+                </div>
+                <div class="modal-input-row">
+                    <button class="modal-button btn-ok" type="submit">LOG IN</button>
+                    <button class="modal-button btn-cancel" onclick="document.getElementById('modal-log-in').style.display = 'none';">CANCEL</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
