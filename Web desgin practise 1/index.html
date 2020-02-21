@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Web Practise 1</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <!-- <script src='https://kit.fontawesome.com/a076d05399.js'></script> -->
+</head>
+<body>
+    <div id="header">
+        <div id="inner_header">
+            <div class="logo_container">
+                <i class='fab fa-facebook-square'></i>
+               
+            </div>
+
+            <div class="searchBar nav-item">
+                <input id="seacher">
+            </div>
+            <div class="cusInfo nav-item">
+                
+                <i class='fas fa-user-friends'></i>
+                <i class='fab fa-facebook-messenger'></i>
+                <i class="material-icons">notifications</i>
+            </div>
+            <div class="setting nav-item">
+                <i class='fas fa-question-circle' style="padding-left: 10px;"></i>
+                <i class='fas fa-caret-down'></i>
+            </div>
+        </div>
+    </div>
+    <div id="container">
+        <div class="item-list"> 
+            <div class="item">
+                <div class="item-info">PINEAPPLE</div>
+                <img class="shop-item-image" src="https://cdn1.iconfinder.com/data/icons/fruits-and-vegetables-12/32/pineapple-tropical-fruit-256.png" alt="pineapple">
+                <div class="item-price">
+                    <p class="shop-item-price">$200</p>
+                    <button class="btn btn-success">Add To Cart</button>
+                </div>
+            </div>
+            <div class="item">
+                <div class="item-info">APPLE</div>
+                <img class="shop-item-image" src="https://cdn2.iconfinder.com/data/icons/food-icons-6/200/food_apple-256.png" alt="apple">
+                <div class="item-price">
+                    <p class="shop-item-price"> $150</p>
+                    <button class="btn btn-success">Add To Cart</button>
+                </div>
+            </div>
+            <div class="item">
+                <div class="item-info">LEMON</div>
+                <img class="shop-item-image" src="https://cdn4.iconfinder.com/data/icons/food-icon-set-2/595/food-13-256.png" alt="Lemon">
+                <div class="item-price">
+                    <p class="shop-item-price">$120</p>
+                    <button class="btn btn-success shop-item-button">Add To Cart</button>
+                </div>
+            </div>
+            <div class="item">
+                <div class="item-info">ORANGE</div>
+                <img class="shop-item-image" src="https://cdn2.iconfinder.com/data/icons/food-icons-6/200/food_orange-256.png" alt="Orange">
+                <div class="item-price">
+                    <p class="shop-item-price">$100</p>
+                    <button class="btn btn-success shop-item-button">Add To Cart</button>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <div id="shopping-cart">
+        <div>
+            <div class="cart-tittle">
+                <h3>ITEM</h3>
+                <h3>PRICE</h3>
+                <h3>QUANTITY</h3>
+            </div>
+            
+        </div>
+
+        <div class="cart-items">
+            
+        </div>
+
+        <div class="cart-total">
+            <strong class="cart-total-tittle">TOTTAL</strong>
+            <span class="cart-total-price">$0</span>
+        </div>
+    </div>
+    <script src="store.js" async></script>
+</body>
+</html>
